@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bai2.Cau1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Câu 1: Là hoa gì?"
+        android:textSize="26sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Hoa gì nuôi trẻ sớm khuya
+        Tháng 10 em nở tỏa hương phố phường!"
+        android:textSize="26sp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnOption1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hoa Bằng lăng"
+            android:backgroundTint="#C51162"
+            android:padding="16dp"/>
+
+        <Button
+            android:layout_marginLeft="15dp"
+            android:id="@+id/btnOption2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hoa Sữa"
+            android:backgroundTint="#C51162"
+            android:padding="16dp"/>
+    </LinearLayout>
+</LinearLayout>

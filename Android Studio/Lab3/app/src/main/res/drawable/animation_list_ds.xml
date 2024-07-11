@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animation-list
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/instagram"
+        android:duration="1000"/>
+
+    <item
+        android:drawable="@drawable/facebook"
+        android:duration="1000"/>
+    <item
+        android:drawable="@drawable/yahoo"
+        android:duration="1000"/>
+</animation-list>
