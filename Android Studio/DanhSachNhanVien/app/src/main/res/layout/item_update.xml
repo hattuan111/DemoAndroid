@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textHeader"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Info Update"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="@drawable/text"
+        android:padding="14dp"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="14dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/white"
+        android:hint="Mã nhân viên"
+        android:background="@drawable/edit_text"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="14dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/white"
+        android:hint="Tên nhân viên"
+        android:background="@drawable/edit_text"/>
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="14dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/white"
+        android:hint="Địa chỉ"
+        android:background="@drawable/edit_text"/>
+
+        <Button
+            android:id="@+id/btnCapNhat"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:text="Update"
+            android:textSize="20sp"
+            android:padding="16sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/update"
+            android:backgroundTint="#0091EA"/>
+</LinearLayout>
